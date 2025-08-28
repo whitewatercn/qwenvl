@@ -1,0 +1,26 @@
+[project]
+name = "Qwen2.5-VL-3B-Instruct"
+version = "0.1.0"
+description = "qwen2.5vl3b微调"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+	"accelerate==1.10.1",
+	"datasets==4.0.0",
+	"ipywidgets==8.1.7",
+	"jupyterlab==4.4.6",
+	"modelscope==1.29.1",
+	"peft==0.17.1",
+	"qwen-vl-utils==0.0.8",
+	"swankit==0.2.4",
+	"torchvision==0.23.0",
+	"transformers==4.55.4",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[[index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
