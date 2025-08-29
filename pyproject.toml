@@ -12,7 +12,7 @@ dependencies = [
 	"modelscope==1.29.1",
 	"peft==0.17.1",
 	"qwen-vl-utils==0.0.8",
-	"swankit==0.2.4",
+	"swanlab==0.6.8",
 	"torchvision==0.23.0",
 	"transformers==4.55.4",
 ]
